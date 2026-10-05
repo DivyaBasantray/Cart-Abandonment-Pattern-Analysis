@@ -10,16 +10,28 @@ The goal was to turn these findings into clear business insights that can help a
 
 ## 2. Key Insights
 
-The Power BI dashboard highlighted several important patterns behind cart abandonment:
+The Power BI dashboard highlighted several important patterns behind cart abandonment.
+
+### Headline Metrics
+
+- **13,544,595** unique sessions
+- **1,660,110** sessions added products to the cart
+- **700,091** cart sessions resulted in a purchase
+- **960,019** cart sessions were abandoned
+- **57.83%** cart abandonment rate
+- **42.17%** cart-to-purchase conversion rate
+- **5.31%** overall view-to-purchase conversion rate
+
+### Key Findings
 
 - Certain product categories had significantly higher abandonment rates than others.
-- Some brands showed very high abandonment rates, suggesting that customers often added products to their carts without completing the purchase.
-- Lower-priced products showed higher abandonment compared with higher-priced products in the analyzed data.
-- Customers who added only one product to their cart were more likely to abandon compared with customers who added multiple products.
-- Session depth had a clear relationship with conversion. Customers with more sessions were generally more likely to complete a purchase.
+- Some brands showed extremely high abandonment rates, with **Silverlit reaching 97.76%** abandonment.
+- Lower-priced products showed higher abandonment. Products priced between **$0-$50 had a 65.64% abandonment rate**, compared with **50.69% for products priced between $100-$200**.
+- Customers with only **1 product in their cart had a 60.16% abandonment rate**, while sessions with 2 products had a lower abandonment rate of **39.82%**.
+- Session depth also showed a clear relationship with conversion. Sessions with only **1 session had a 65.42% abandonment rate**, while customers with **6+ sessions had a 45.94% abandonment rate**.
 - Customers who purchased showed stronger engagement with the website compared with customers who abandoned their carts.
 - Some device types and traffic sources showed higher abandonment rates, highlighting areas that may need further investigation.
-- The largest drop-off in the purchase journey occurred between adding a product to the cart and completing the purchase.
+- The largest drop-off in the purchase journey occurred between **adding a product to the cart and completing the purchase**, making this an important area for the product team to investigate.
 
 Overall, the analysis showed that cart abandonment is not caused by one single factor. Product, price, customer engagement, session behavior, device, and traffic source all play a role in the likelihood of completing a purchase.
 
@@ -101,7 +113,7 @@ For this project, the analysis focused on the **February 2020 dataset**.
 
 The February file contained approximately **55 million events**. Because of its large size, the data was processed in chunks using Python instead of loading the entire file into memory at once.
 
-For the cart abandonment analysis, the focus was specifically on **cart events**, resulting in approximately **2.65 million cart records** after processing and cleaning.
+For the cart abandonment analysis, the focus was specifically on **cart events**, resulting in **2,656,528 cart records** after processing and cleaning.
 
 The final cart-level dataset included information such as:
 
