@@ -37,7 +37,83 @@ Overall, the analysis showed that cart abandonment is not caused by one single f
 
 ---
 
-## 3. Tech Stack
+## 3. Actionable Recommendations
+
+Based on the dashboard findings, the following actions can be taken to reduce cart abandonment and improve conversion:
+
+### 1. Simplify the Cart-to-Purchase Journey
+The biggest opportunity is the drop-off between adding a product to the cart and completing the purchase. The business should review the checkout process and reduce unnecessary steps.
+
+**Action:** Make checkout shorter, show the final price early, provide clear delivery information, and offer commonly used payment options.
+
+**Expected impact:** A smoother checkout experience can reduce last-minute drop-offs and improve cart-to-purchase conversion.
+
+### 2. Investigate High-Abandonment Product Categories
+Some product categories have much higher abandonment rates than others.
+
+**Action:** Compare these categories on price, product availability, delivery charges, product descriptions, ratings, and reviews. Identify whether customers are adding products mainly for comparison rather than immediate purchase.
+
+**Expected impact:** Improving the product information and purchase experience for these categories can increase conversion.
+
+### 3. Focus on High-Abandonment Brands
+Brands with high cart abandonment should not be treated the same as brands with strong conversion.
+
+**Action:** Review the pricing, product ratings, reviews, availability, and competitor pricing for these brands. Identify whether customers are using the cart to compare products before buying elsewhere.
+
+**Expected impact:** Better pricing and stronger product information may help convert more users who are already showing purchase intent.
+
+### 4. Target Single-Product Cart Sessions
+Customers adding only one product showed a higher likelihood of abandonment.
+
+**Action:** Test product recommendations, complementary products, customer reviews, and relevant offers on single-product cart sessions.
+
+**Expected impact:** Encouraging customers to explore related products can increase engagement and give them more reasons to complete the purchase.
+
+### 5. Improve Low-Engagement Customer Journeys
+Customers with lower engagement and fewer sessions were more likely to abandon.
+
+**Action:** Provide clearer product information, reviews, recommendations, and trust signals early in the customer journey. For returning visitors, personalize recommendations based on previously viewed or added products.
+
+**Expected impact:** Increasing engagement before checkout can improve purchase intent and reduce abandonment.
+
+### 6. Optimize High-Abandonment Devices
+If a particular device type shows a higher abandonment rate, it should be investigated separately rather than assuming the behavior is the same across all devices.
+
+**Action:** Compare page loading time, cart usability, checkout layout, payment experience, and error rates across devices.
+
+**Expected impact:** Fixing device-specific issues can remove technical or usability barriers during checkout.
+
+### 7. Review Traffic Sources with High Abandonment
+Some traffic sources may generate many cart sessions but relatively few purchases.
+
+**Action:** Compare the landing pages, campaigns, keywords, and customer intent for these traffic sources. Check whether the marketing message matches the product and offer shown after the customer arrives on the website.
+
+**Expected impact:** Better-qualified traffic should lead to higher conversion and reduce wasted marketing spend.
+
+### 8. Prioritize High-Traffic, Low-Conversion Segments
+Not every high-abandonment segment has the same business value. Segments with both high traffic and low conversion should be prioritized.
+
+**Action:** Create a priority list of categories, brands, devices, and traffic sources based on traffic volume and abandonment rate. Start optimization experiments with the largest opportunities.
+
+**Expected impact:** Focusing resources on high-volume problem areas can produce a larger improvement in overall conversion.
+
+### 9. Test Cart Abandonment Recovery
+Customers who abandon their carts have already shown purchase interest.
+
+**Action:** Test reminder emails, personalized product recommendations, or limited-time incentives for selected abandoned-cart segments.
+
+**Expected impact:** Recovering even a small percentage of abandoned carts can directly increase completed purchases.
+
+### 10. Continuously Monitor Cart Abandonment
+Cart abandonment should be tracked regularly instead of being treated as a one-time analysis.
+
+**Action:** Monitor abandonment rate by category, brand, device, traffic source, price range, and customer behavior. Compare these metrics over time after implementing changes.
+
+**Expected impact:** Continuous monitoring helps the business identify new problems and measure whether optimization efforts are actually improving conversion.
+
+--- 
+
+## 4. Tech Stack
 
 ### Python
 Used for data cleaning, data preparation, and exploratory data analysis. Python was also used to process the large dataset in chunks.
@@ -62,7 +138,7 @@ Used to store the project files, analysis, SQL queries, and documentation.
 
 ---
 
-## 4. Dashboard Purpose and Features
+## 5. Dashboard Purpose and Features
 
 ### Business Problem
 
@@ -97,9 +173,9 @@ The dashboard is designed to help an e-commerce or product team identify the big
 
 ---
 
-## 5. Dataset
+## 6. Dataset
 
-The project uses the **E-commerce Behavior Data from Multi-Category Store** dataset from Kaggle.
+The project uses the **E-commerce Behavior Data from Multi-Category Store** dataset from Kaggle: https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store/data?select=2019-Nov.csv
 
 The original dataset contains e-commerce events such as:
 
