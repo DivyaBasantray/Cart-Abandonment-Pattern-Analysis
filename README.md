@@ -214,3 +214,17 @@ The final cart-level dataset included information such as:
 - Day of week
 
 The processed data was then used across **Python, SQL, and Power BI** to complete the analysis and build the final dashboard.
+
+## 7. Dashboard Screenshots
+
+### Executive Overview
+![Executive Overview](https://github.com/DivyaBasantray/Cart-Abandonment-Pattern-Analysis/blob/main/Dashboard/Executive%20Overview.png)
+
+### Abandonment Drivers
+![Abandonment Drivers](https://github.com/DivyaBasantray/Cart-Abandonment-Pattern-Analysis/blob/main/Dashboard/Abandonment%20Drivers.png)
+
+### Customer & Session Behavior
+![Customer & Session Behavior](https://github.com/DivyaBasantray/Cart-Abandonment-Pattern-Analysis/blob/main/Dashboard/Customer%20%26%20Session%20Behavior.png)
+
+### Funnel Analysis
+![Funnel Analysis](https://github.com/DivyaBasantray/Cart-Abandonment-Pattern-Analysis/blob/main/Dashboard/Funnel%20Analysis.png)
