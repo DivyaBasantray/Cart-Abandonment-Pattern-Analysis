@@ -1,3 +1,5 @@
+# Cart Abandonment Pattern Analysis
+
 ## 1. Project Objective
 
 The objective of this project was to understand why customers abandon their shopping carts before completing a purchase.
