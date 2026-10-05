@@ -6,6 +6,14 @@ Using e-commerce event data from February 2020, I analyzed customer and session 
 
 The goal was to turn these findings into clear business insights that can help an e-commerce team understand where customers are dropping off and what areas should be investigated first.
 
+## 📊 Power BI Dashboard
+
+The final Power BI dashboard is available as a GitHub Release because the `.pbix` file is too large to store directly in the repository.
+
+👉 **[Download/View the Power BI Dashboard (v1.0.0)](https://github.com/DivyaBasantray/Cart-Abandonment-Pattern-Analysis/releases/tag/v1.0.0)**
+
+The dashboard covers cart abandonment, conversion, customer behavior, product-level patterns, device and traffic-source analysis, and the main drop-off points in the purchase journey.
+
 ---
 
 ## 2. Key Insights
